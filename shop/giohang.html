@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/dangnhap.css">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="/CSS/giohang.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="/CSS/trangchu22222.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+
+            <div class="tieude">
+                <div class="search">
+                    <canvas id="myCanvas" width="200" height="50">
+                        Your browser does not support the HTML canvas tag.</canvas>
+                    <!-- <div><img src="images/MT_MOBILE.png" alt="" height="60px"></div> -->
+                    <div class="timkiem">
+                        <input type="text" placeholder="Bạn cần tìm gì?" name="timkiem">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                </div>
+
+
+
+                <div class="phai">
+
+                    <a href="/shop/trangchu2.html">Trang chủ</a>
+                    <a href="/shop/sanpham.html">Sản phẩm </a>
+                    <a href="/shop/lienhe.html">Liên hệ</a>
+
+                    <a href="##"><i class="fa-solid fa-user-large"></i></a>
+                    <a href="/shop/giohang.html"><i class="fa-solid fa-cart-shopping"></i></i></a>
+
+                </div>
+            </div>
+
+
+
+        </nav>
+        <h2 class="text-center">
+
+            Giỏ hàng của bạn</h2>
+        <div class="container">
+            <table id="cart" class="table table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th style="width:50%">Tên sản phẩm</th>
+                        <th style="width:10%">Giá</th>
+                        <th style="width:8%">Số lượng</th>
+                        <th style="width:22%" class="text-center">Thành tiền</th>
+                        <th style="width:10%"> </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-th="Product">
+                            <div class="row">
+                                <div class="col-sm-2 hidden-xs"><img src="/images/iphone-13-pro-max-gold-1-600x600.jpg" alt="Sản phẩm 1" class="img-responsive" width="100">
+                                </div>
+                                <div class="col-sm-10">
+                                    <h4 class="nomargin"> iPhone 13 Pro Max</h4>
+
+                                </div>
+                            </div>
+                        </td>
+                        <td data-th="Price">36.990.000</td>
+                        <td data-th="Quantity"><input class="form-control text-center" value="1" type="number" fdprocessedid="cwka18">
+                        </td>
+                        <td data-th="Subtotal" class="text-center">36.990.000</td>
+                        <td class="actions" data-th="">
+                            <button class="btn btn-info btn-sm" fdprocessedid="kh3q4p"><i class="fa fa-edit"></i>
+    </button>
+                            <button class="btn btn-danger btn-sm" fdprocessedid="2efzvg"><i class="fa fa-trash-o"></i>
+    </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-th="Product">
+                            <div class="row">
+                                <div class="col-sm-2 hidden-xs"><img src="/images/iphone-13-pro-max-gold-1-600x600.jpg" alt="Sản phẩm 1" class="img-responsive" width="100">
+                                </div>
+                                <div class="col-sm-10">
+                                    <h4 class="nomargin"> iPhone 13 Pro Max</h4>
+
+                                </div>
+                            </div>
+                        </td>
+                        <td data-th="Price">36.990.000</td>
+                        <td data-th="Quantity"><input class="form-control text-center" value="1" type="number" fdprocessedid="cwka18">
+                        </td>
+                        <td data-th="Subtotal" class="text-center">36.990.000</td>
+                        <td class="actions" data-th="">
+                            <button class="btn btn-info btn-sm" fdprocessedid="kh3q4p"><i class="fa fa-edit"></i>
+    </button>
+                            <button class="btn btn-danger btn-sm" fdprocessedid="2efzvg"><i class="fa fa-trash-o"></i>
+    </button>
+                        </td>
+                </tbody>
+                <tfoot>
+                    <tr class="visible-xs">
+                        <td class="text-center"><strong>Tổng 73.8900.000 đ</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="/shop/sanpham.html" class="btn btn-warning"><i class="fa fa-angle-left"></i> Tiếp tục mua hàng</a>
+                        </td>
+                        <td colspan="2" class="hidden-xs"> </td>
+                        <td class="hidden-xs text-center"><strong>Tổng 73.8900.000 đ</strong>
+                        </td>
+                        <td><a href="#" class="btn btn-success btn-block">Thanh toán <i class="fa fa-angle-right"></i></a>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <footer>
+            <div class="ft">
+                <div class="ft1">
+
+
+                    <b>Tìm cửa hàng gần nhất</b> <br> Cửa hàng có trên toàn quốc <br>
+                    <b> Phương thức thanh toán</b>
+                    <img src="/images/thanhtoan.png" alt="">
+
+                </div>
+
+                <div class="ft2">
+                    Gọi mua hàng: 1800.2097 (8h00 - 22h00)
+                    <br> Gọi khiếu nại: 1800.2063 (8h00 - 21h30)
+                    <br> Gọi bảo hành: 1800.2064 (8h00 - 21h00)
+                    <br>
+                    <b>Đối tác dịch vụ bảo hành</b>
+                    <img src="/images/baohanh.png" alt="">
+                </div>
+
+                <div class="ft3">
+                    Mua hàng và thanh toán Online <br> Mua hàng trả góp Online<br> Tra thông tin đơn hàng<br> Tra thông tin bảo hành<br> Tra cứu hoá đơn VAT điện tử<br> Trung tâm bảo hành chính hãng<br> Dịch vụ bảo hành điện thoại<br>
+                </div>
+
+                <div class="ft4">
+                    <b> Theo dỗi và liên hệ</b>
+                    <img src="/images/lienhe.png" alt="">
+                </div>
+            </div>
+        </footer>
+</body>

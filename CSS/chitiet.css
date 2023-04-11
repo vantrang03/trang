@@ -1,0 +1,36 @@
+.chitietsp {
+    width: 80%;
+    margin: 30px auto;
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: auto auto auto;
+}
+
+.thongso {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+button {
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #d70019;
+    color: white;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+
+button:hover {
+    background-color: white;
+    color: #d70019;
+}
+
+@media screen and (max-width: 2000px) {}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: #e7e7e7;
+    }
+}

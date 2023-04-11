@@ -1,0 +1,33 @@
+body{
+    background: url('/images/nendangnhap2.jpg') no-repeat;
+    background-size: 100%;
+
+}
+form{
+    width: 45%;
+    margin: auto;
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 15%;
+    border-radius: 20px;
+    height: 300px;
+    font-size: 35px;
+    padding: 30px;
+    font-weight: bold;
+}
+.form-control{
+    padding: 3px 7%;
+    border-radius: 3px;
+}
+.sm{
+    padding: 3px 10%;
+}
+.logo{
+    float: left;
+    width: 300px;
+    height: auto;
+    position: relative;
+    top: 0px;
+}
+
+

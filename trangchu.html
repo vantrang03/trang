@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="CSS/trangchu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- <header>
+            <div>
+                <img src="images/mylogo.png" alt="" class="logo">
+            </div>
+            <div class="gioithieu">
+                <h2>UY TÍN - AN TOÀN - CHẤT LƯỢNG</h2>
+                <p>Sự lựa chọn hàng đầu của quý khách!!!</p>
+            </div>
+            <div class="gif">
+                <img src="images/wow1.gif" alt="" class="gif1">
+            </div>
+
+        </header> -->
+
+        <nav>
+            <div class="search">
+                <input type="text" placeholder="Bạn cần tìm gì?">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <b>Hotline <i class="fas fa-phone-volume"></i>: 0999999999 </b>
+            </div>
+
+
+            <div class="chucnang">
+                <a href="trangchu.html"><i class="fas fa-home"></i> Trang chủ</a>
+                <a href="phone.html"><i class="fas fa-mobile-alt"></i> Điện thoại</a>
+                <a href="/shop/lienhe.html"><i class="fa-solid fa-address-book"></i>Liên hệ</a>
+                <a href="/shop/vitri.html"><i class="fa-solid fa-chalkboard-user"></i>Giới thiệu</a>
+                <a href="/shop/dangky.html" style="float: right">Đăng ký</a>
+                <a href="/shop/dangnhap.html" style="float: right">Đăng nhập</a>
+            </div>
+
+        </nav>
+
+        <div class="sale">
+            <div class="anh">
+                <img src="images/0.jpg" alt="Bi loi" id="anh" width="100%" height="100%">
+            </div>
+            <div class="btn_container">
+
+                <button onclick="prev()" class="lui">
+                    < </button>
+                <button onclick="next()" class="tien"> > </button>
+
+            </div>
+        </div>
+
+
+
+
+
+        <article>
+            <div class="khuyemai">
+                <img src="images/banersale.png" alt="" width="100%" style="background-color: #bd1e2d;">
+
+
+
+                <div class="bao">
+                    <div class="sp">
+                        <div class="san-pham">
+                            <img src="images/iphone-13-pro-max-gold-1-600x600.jpg" alt="" />
+                            <p class="tensp">iPhone 13 Pro Max 256GB</p>
+                            <p class="giacu"><del>36.990.000<sup>đ</sup></del></p>
+                            <p class="giamoi">34.990.000<sup>đ</sup></p>
+
+                        </div>
+
+                    </div>
+                    <div class="sp">
+                        <div class="san-pham">
+                            <img src="/images/samsung-galaxy-z-fold-3-silver-1-600x600.jpg" alt="" />
+                            <p class="tensp">Samsung Galaxy Z Fold3</p>
+                            <p class="giamoi">41.990.000<sup>đ</sup> -256GB</p>
+                            <p class="giamoi">44.990.000<sup>đ</sup> -512GB</p>
+                        </div>
+                    </div>
+                    <div class="sp">
+                        <div class="san-pham">
+                            <img src="images/oppo-reno7-z-5g-thumb-1-1-600x600.jpg" alt="" />
+                            <p class="tensp">OPPO Reno7 </p>
+                            <p class="giacu"><del>8.990.000<sup>đ</sup></del></p>
+                            <p class="giamoi">8.490.000<sup>đ</sup></p>
+                        </div>
+                    </div>
+
+                    <div class="sp">
+                        <div class="san-pham">
+                            <img src="images/zflip-kem-01-removebg-preview.png" alt="" />
+                            <p class="tensp">Samsung Galaxy Z Flip3 5g</p>
+                            <p class="giacu"><del>25.990.000<sup>đ</sup></del></p>
+                            <p class="giamoi">22.790.000<sup>đ</sup></p>
+                        </div>
+                    </div>
+
+                    <div class="sp">
+                        <div class="san-pham">
+                            <img src="images/oppo_reno6__2_-removebg-preview.png" alt="" />
+                            <p class="tensp">OPPO Reno6 5G</p>
+                            <p class="giacu"><del>9.490.000<sup>đ</sup></del></p>
+                            <p class="giamoi">8.990.000<sup>đ</sup></p>
+                        </div>
+                    </div>
+
+                    <div class="sp">
+                        <div class="san-pham">
+                            <img src="images/xiaomi-mi-11-lite-5g-3_13.webp" alt="" />
+                            <p class="tensp">Xiaomi Mi Lite 5G</p>
+                            <p class="giacu"><del>10.490.000<sup>đ</sup></del></p>
+                            <p class="giamoi">8.190.000<sup>đ</sup></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="images/giovang.png" alt="" width="100%" style="margin-top: 30px;">
+
+            <div class="bao">
+
+                <div class="sp">
+                    <div class="san-pham">
+                        <img src="images/oppo-reno7-z-5g-thumb-1-1-600x600.jpg" alt="" />
+                        <p class="tensp"> OPPO Reno7 Z 5G </p>
+
+                        <p class="giamoi">10.490.000<sup>đ</sup></p>
+                    </div>
+                </div>
+
+                <div class="sp">
+                    <div class="san-pham">
+                        <img src="images/samsung-galaxy-a13-xanh-thumb-1-600x600.jpg" alt="" />
+                        <p class="tensp">Samsung Galaxy A13 6GB </p>
+
+                        <p class="giamoi">5.190.000<sup>đ</sup></p>
+                    </div>
+                </div>
+
+                <div class="sp">
+                    <div class="san-pham">
+                        <img src="images/vivo-y21s-blue-600x600.jpg" alt="" />
+                        <p class="tensp">Vivo Y21s 4GB </p>
+
+                        <p class="giamoi">4.990.000<sup>đ</sup></p>
+                    </div>
+                </div>
+
+                <div class="sp">
+                    <div class="san-pham">
+                        <img src="images/iphone-xi-do-600x600.jpg" alt="" />
+                        <p class="tensp"> iPhone 11 64GB </p>
+
+                        <p class="giamoi">12.990.000<sup>đ</sup></p>
+                    </div>
+                </div>
+
+                <div class="sp">
+                    <div class="san-pham">
+                        <img src="images/a94.jpg" alt="" />
+                        <p class="tensp"> OPPO A95 </p>
+
+                        <p class="giamoi">3.990.000<sup>đ</sup></p>
+                    </div>
+                </div>
+
+                <div class="sp">
+                    <div class="san-pham">
+                        <img src="images/c15.jpg" alt="" />
+                        <p class="tensp">Realme C35 64GB </p>
+
+                        <p class="giamoi">3.990.000<sup>đ</sup></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="mi">
+                <h1>TUẦN LỄ VÀNG XIAOMI</h1>
+                <div class="quangcao">
+                    <img src="images/mi1.png" alt="" class="mot">
+                    <img src="images/mi2.png" alt="" class="mot">
+                    <img src="images/mi3.png" alt="" class="mot">
+                </div>
+
+                <div class="bao">
+
+                    <div class="sp">
+                        <div class="san-pham">
+                            <img src="images/redmi10.png" alt="" />
+                            <p class="tensp">Xiaomi Redmi 10 (2022) </p>
+                            <p class="giacu"><del>4.290.000<sup>đ</sup></del></p>
+                            <p class="giamoi">4.090.000<sup>đ</sup></p>
+                        </div>
+                    </div>
+
+                    <div class="sp">
+                        <div class="san-pham">
+                            <img src="images/11t.png" alt="" />
+                            <p class="tensp">Xiaomi 11T Pro 5G </p>
+                            <p class="giamoi">14.990.000<sup>đ</sup></p>
+                        </div>
+                    </div>
+
+                    <div class="sp">
+                        <div class="san-pham">
+                            <img src="images/xiaomi-redmi-10c-xanh-luc-thumb-600x600.jpg" alt="" />
+                            <p class="tensp"> Xiaomi Redmi 10C 64GB </p>
+                            <p class="giamoi">3.490.000<sup>đ</sup></p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </article>
+
+
+
+        <footer>
+            <div id="in41">
+                <h2>Thông tin liên hệ</h2>
+                <br>
+                <p><i class="fas fa-phone"></i> : 0338231325</p>
+                <br>
+                <p><i class="fab fa-facebook"></i><a href="https://www.facebook.com/vantrang05/">Vân Trang/a></p>
+                <br>
+                <p><i class="fab fa-instagram-square"></i>trang05</p>
+            </div>
+            <div id="in42">
+                <h2>Dịch vụ khách hàng</h2>
+                <br>
+                <p>- Bảo hành từ 6-24 tháng</p>
+                <br>
+                <p>- Phụ kiện cao cấp kèm theo</p>
+                <br>
+                <p>- Voucher giảm giá cực sốc</p>
+                <br>
+                <p>- Khuyến mãi sản phẩm liên tục</p>
+            </div>
+            <div id="in43">
+                <h2>Cơ sở cửa hàng</h2>
+                <br>
+                <p>- Long An</p>
+                <br>
+                <p>- TP Hồ Chí Minh</p>
+                <br>
+                <p>- Cần thơ</p>
+            </div>
+        </footer>
+
+
+
+    </div>
+</body>
+<script src="JS/slide.js"></script>
+
+</html>

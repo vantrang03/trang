@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chu 22222222</title>
+    <link rel="stylesheet" href="/CSS/trangchu22222.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/CSS/sanpham.css">
+    <link rel="stylesheet" href="/CSS/lienhe.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+
+            <div class="tieude">
+                <div class="search">
+                    <div><img src="/images/MT_MOBILE.png" alt="" height="60px"></div>
+                    <div class="timkiem">
+                        <input type="text" placeholder="Bạn cần tìm gì?" name="timkiem">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                </div>
+
+
+
+                <div class="phai">
+
+                    <a href="/shop/trangchu2.html">Trang chủ</a>
+                    <a href="/shop/sanpham.html">Sản phẩm </a>
+                    <a href="/shop/lienhe.html">Liên hệ</a>
+
+                    <a href="##"><i class="fa-solid fa-user-large"></i></a>
+                    <a href="/shop/giohang.html"><i class="fa-solid fa-cart-shopping"></i></i></a>
+
+                </div>
+            </div>
+
+
+
+        </nav>
+        <div class="lienhe">
+            <div class="loinoidau">
+                <h1>Trang liên hệ</h1>
+                Mọi thắc mắc của bạn sẽ được giải quyết ở đây <br> Hãy liên hệ với chúng tôi để biết thêm thông tin chi tiết <br> Hotline: 084737999
+            </div>
+            <div class="map">
+
+                <h3>Địa chỉ: </h3>
+
+                <div id="toado"></div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4085874444236!2d106.62395541471912!3d10.856495592267226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bee0b0ef9e5%3A0x5b4da59e47aa97a8!2zQ8O0bmcgVmnDqm4gUGjhuqduIE3hu4FtIFF1YW5nIFRydW5n!5e0!3m2!1svi!2s!4v1645394059442!5m2!1svi!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="ft">
+                <div class="ft1">
+
+
+                    <b>Tìm cửa hàng gần nhất</b> <br> Cửa hàng có trên toàn quốc <br>
+                    <b> Phương thức thanh toán</b>
+                    <img src="/images/thanhtoan.png" alt="">
+                    <div class="thanhtoan">
+
+
+                    </div>
+                </div>
+
+                <div class="ft2">
+                    Gọi mua hàng: 1800.2097 (8h00 - 22h00)
+                    <br> Gọi khiếu nại: 1800.2063 (8h00 - 21h30)
+                    <br> Gọi bảo hành: 1800.2064 (8h00 - 21h00)
+                    <br>
+                    <b>Đối tác dịch vụ bảo hành</b>
+                    <img src="/images/baohanh.png" alt="">
+                </div>
+
+                <div class="ft3">
+                    Mua hàng và thanh toán Online <br> Mua hàng trả góp Online<br> Tra thông tin đơn hàng<br> Tra thông tin bảo hành<br> Tra cứu hoá đơn VAT điện tử<br> Trung tâm bảo hành chính hãng<br> Dịch vụ bảo hành điện thoại<br>
+                </div>
+
+                <div class="ft4">
+                    <b> Theo dỗi và liên hệ</b>
+                    <img src="/images/lienhe.png" alt="">
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+<script src="JS/slide.js"></script>
+<script>
+    function errorgeo(err) {
+        var errcode = err.code;
+        var message = err.message;
+        var boxhtml = document.getElementById("toado");
+        boxhtml.innerHTML = "Mã lỗi: " + errcode + "<br>" + "Nội dung lỗi: " + message;
+
+    }
+
+    function showcoor(pos) {
+        var coord = pos.coords;
+        var long = coord.longitude;
+        var lat = coord.latitude;
+        var boxhtml = document.getElementById("toado");
+        boxhtml.innerHTML = "Kinh độ: " + long + "<br>" + "Vĩ độ: " + lat;
+
+    }
+
+    //TEST
+    navigator.geolocation.getCurrentPosition(showcoor, errorgeo);
+</script>
+
+</html>
